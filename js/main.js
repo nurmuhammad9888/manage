@@ -13,6 +13,7 @@ elOverlay.addEventListener("click", function(){
     elNav.classList.toggle("js-nav-show")
     elOverlay.classList.remove("overlay-show")
     elBody.classList.remove("bodyshow")
+    elBtn.classList.remove("burgerbtn-show")
 })
 
 $(".sleder").slick({
