@@ -1,0 +1,38 @@
+.js-nav {
+  transform: translate(-250%);
+  transition: transform 0.5s ease;
+}
+
+.js-nav-show {
+  transform: translate(0);
+}
+
+.burgerbtn {
+  width: 25px;
+  height: 18px;
+  background-image: url("../images/burger-menu-2.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.1s ease-in-out;
+}
+
+.burgerbtn-show {
+  background-image: url("../images/close-btn.svg");
+}
+
+@media only screen and (min-width: 768px) {
+  .js-nav {
+    transform: translate(0);
+    transition: transform 0s ease;
+  }
+}
+.container {
+  width: 1340px;
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+  }
+}/*# sourceMappingURL=mainn.css.map */
