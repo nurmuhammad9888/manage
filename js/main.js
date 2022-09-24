@@ -1,9 +1,11 @@
 let elNav = document.querySelector(".js-nav")
 let elBtn = document.querySelector(".btn-js")
+let elBody = document.querySelector("body")
 
 elBtn.addEventListener("click", function(){
     elNav.classList.toggle("js-nav-show")
     elBtn.classList.toggle("burgerbtn-show")
+    elBody.classList.toggle("bodyshow")
 })
 
 $(".sleder").slick({

@@ -14,7 +14,6 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  transition: background-image 0.1s ease-in-out;
 }
 
 .burgerbtn-show {
@@ -35,4 +34,7 @@
   .container {
     width: 100%;
   }
+}
+.bodyshow {
+  overflow: hidden;
 }/*# sourceMappingURL=mainn.css.map */

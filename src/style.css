@@ -587,6 +587,10 @@ video {
   }
 }
 
+.fixed{
+  position: fixed;
+}
+
 .absolute{
   position: absolute;
 }
@@ -791,28 +795,12 @@ video {
   background-size: 606px;
 }
 
-.bg-contain{
-  background-size: contain;
-}
-
 .bg-cover{
   background-size: cover;
 }
 
 .bg-calc{
   background-position: calc(50% + 200px) calc(50% - 1250px);
-}
-
-.bg-left-bottom{
-  background-position: left bottom;
-}
-
-.bg-left-top{
-  background-position: left top;
-}
-
-.bg-right-top{
-  background-position: right top;
 }
 
 .bg-no-repeat{
