@@ -36,12 +36,16 @@ module.exports = {
       backgroundPosition: {
         calc: 'calc(50% + 200px) calc(50% - 1250px)',
         calcBIg: 'calc(50% + 480px) calc(50% - 950px)',
+        calcCard: 'calc(50% - 700px) calc(50% + 150px)',
+        calcBIgCard: 'calc(50% - 480px) calc(50% + 150px)',
+        calcBIgCardXl: 'calc(50% - 800px) calc(50% + 100px)',
       },
       backgroundSize: {
         'mainBg-size': '606px',
         'mainBg-sizeBig': '906px',
-      }
-
+        'mainBgCard-size': '606px',
+        'mainBgCard-sizeBig': '700px',
+      },
     }
   },
   plugins: [],

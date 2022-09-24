@@ -1,14 +1,18 @@
-
 .js-nav{
     transform: translate(-250%);
     transition: transform 0.5s ease;
 }
-.js-nav-show{
+.overlay{
+    transform: translate(-250%);
+    transition: transform 0.3s ease;
+}
+.js-nav-show,
+.overlay-show{
     transform: translate(0);
 }
 .burgerbtn{
-    width: 25px;
-    height: 18px;
+    width: 30px;
+    height: 20px;
     background-image: url("../images/burger-menu-2.svg");
     background-size: contain;
     background-position: center;
