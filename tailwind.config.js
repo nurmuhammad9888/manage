@@ -7,9 +7,9 @@ module.exports = {
         yellowOrange: "#F3603C",
         blueColor: "#242D52",
         footerBg: "#1D1E25",
-        body: "#F2F2F2",
-        cardBg:"#FFF0EC",
-        colorCarusel:"#fafafa"
+        body: " #F2F2F2",
+        cardBg:" #FFF0EC",
+        colorCarusel:" #fafafa"
       },
         backgroundImage:{
         "overlayGradent":" linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0.33%, rgba(0, 0, 0, 0.599049) 99.79%);"
