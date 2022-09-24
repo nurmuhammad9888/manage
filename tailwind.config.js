@@ -22,7 +22,8 @@ module.exports = {
       },
       fontSize:{
         heroFontsize:" 40px",
-        heroFont:"56px"
+        heroFont:"56px",
+        footerSize:"13px"
       },
       width :{
         imgSize:"540px",

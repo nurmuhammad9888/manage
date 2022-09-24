@@ -1,4 +1,4 @@
-let elNav = document.querySelector(".js-nav")
+// let elNav = document.querySelector(".js-nav")
 let elBtn = document.querySelector(".btn-js")
 let elBody = document.querySelector("body")
 
@@ -14,8 +14,8 @@ $(".sleder").slick({
     slidesToShow: 1,
     slidesToScroll: 2,
     arrows:false,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    // autoplay: true,
+    // autoplaySpeed: 2000,
     responsive: [
         {
             breakpoint: 2220,
